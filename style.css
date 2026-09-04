@@ -154,6 +154,19 @@ nav li {
     border: 2px solid green
     
 }
+.rating-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1600px;
+    height: 344px;
+    gap: 80px;
+    color: green;
+    
+}
+
+
 
 
 
@@ -178,6 +191,13 @@ nav li {
     }
     .hero{
         flex-direction: column;
+    }
+    .rating-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 15px;
+        margin: 0 auto;
+        margin-left: 50px;
     }
 
     }
