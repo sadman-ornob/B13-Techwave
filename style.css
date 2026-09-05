@@ -449,6 +449,86 @@ nav li {
 
 
 
+.footer {
+    width: 100%;
+    min-height: 350px; 
+    background-image: url('./assets/footer-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+
+.footer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px; 
+    max-width: 800px;
+    width: 100%;
+}
+
+
+.footer h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer .span {
+    color: #e22b80; 
+}
+
+
+.footer > div > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px; 
+}
+
+
+.footer > div > div > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(255, 255, 255, 0.08); 
+    border: 1px solid rgba(226, 43, 128, 0.3);
+    padding: 10px 18px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer > div > div > span:hover {
+    background-color: #e22b80;
+    border-color: #e22b80;
+    transform: translateY(-3px);
+}
+
+.footer > div > div > span img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.footer p {
+    color: #cbbccf;
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+
+
 
 
 
