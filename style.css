@@ -455,9 +455,11 @@ nav li {
 
 /* Responsive code */
 @media screen and (max-width: 576px) {
+    
     nav {
         justify-content: space-between;
         padding: 20px 7% 0 7%;
+        max-width: ;
     }
     nav .li-iteam {
         display: none !important;
@@ -479,7 +481,7 @@ nav li {
         grid-template-columns: repeat(2, 1fr); 
         gap: 15px;
         margin: 0 auto;
-        margin-left: 50px;
+        margin-left: 100px;
     }
 
     .bento-wrapper {
@@ -500,6 +502,7 @@ nav li {
     }
 
     .div-card-containar {
+
         grid-template-columns: 1fr; 
         gap: 20px;
     }
@@ -509,8 +512,41 @@ nav li {
         margin: 0 auto;
         width: 100%;
     }
+  
+    .div-card-containar {
+        grid-template-columns: 1fr !important; 
+        gap: 20px;
+    }
+
+    .div-card-containar > div {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    section h1 + div {
+        flex-direction: column !important; 
+        text-align: center;
+        padding: 24px 16px;
+        gap: 20px;
+    }
+
+    section h1 + div > div:first-child {
+        flex: 0 0 auto;
+        max-width: 180px;
+        margin: 0 auto;
+    }
+
+    section h1 + div > div:last-child {
+        justify-content: center;
+    }
+    .social-links{
+        justify-content: center;
+    }
 
     }
+
+
+    
 
 
 
